@@ -1,0 +1,423 @@
+body {
+        /* overflow-y specifies what to do with the top/bottom edges of the content. */
+        /* overflow-x specifies what to do with the left/right edges of the content. */
+        overflow-y: scroll;
+        overflow-x: hidden;
+        margin: 0;
+}
+  
+/* Navbar */
+
+.navbar{
+    height: 100px;
+}
+
+.nav-link{
+    float: right;
+    width: 100px;
+    margin-right: 30px;
+
+    color: rgba(0, 0, 0, 0.70);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-logo{
+    width: 34px;
+    border-radius: 0px 9.559px;
+    border: 0.737px solid #FFF;
+    background: #008CFF;
+    color: #FFF;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+    position: relative;
+    left: 360px;
+    top: 15px;
+}
+
+.nav-softvalue {
+    position: relative;
+    bottom: 15px;
+    left: 400px;
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.nav-link:hover{
+    color: #008CFF;
+}
+
+/* **************** */
+
+.phone-img{
+    width: 20%;
+}
+
+.third-section{
+    height: 1500px;
+}
+
+.contact-text1{
+    position: absolute;
+    top: 12%;
+    text-align: center;
+    color: white;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.contact-text2 {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    color: white;
+    text-align: center;
+    color: white;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 36px;
+    width: 450px;
+}
+
+.message{
+    color: #008CFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 75% */
+
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+.message-text{
+    color: rgba(0, 0, 0, 0.65);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    width: 500px;
+
+    position: relative;
+    top: 120px;
+    left: 300px;
+}
+
+.full-name {
+    color: rgba(0, 0, 0, 0.65);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+
+    position: relative;
+    top: 150px;
+    left: 300px;
+}
+
+.name {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.phone-number {
+    color: rgba(0, 0, 0, 0.65);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+
+    position: relative;
+    top: 34px;
+    left: 800px;
+}
+
+.number{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.email{
+    color: rgba(0, 0, 0, 0.65);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+.mail-input{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.organ {
+    color: rgba(0, 0, 0, 0.65);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+
+    position: relative;
+    bottom: 5px;
+    left: 800px;
+}
+
+.organ-input {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.filter-title{
+    color: rgba(0, 0, 0, 0.65);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    text-align: center;
+
+    position: relative;
+    top: 100px;
+    left: 140px;
+}
+
+.message-textarea{
+    position: relative;
+    left: 520px;
+    top: 200px;
+}
+
+.message-label {
+    color: rgba(0, 0, 0, 0.65);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Roboto', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 150% */
+}
+
+.message-btn{
+    color: rgba(0, 0, 0, 0.65);
+    background: rgba(147, 197, 250, 0.31);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto', sans-serif;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 26px;
+    
+    position: relative;
+    top: 270px;
+    left: 520px;
+}
+
+.message-btn-text {
+    color: black;
+    font-size: 29px;
+}
+
+.info{
+    position: relative;
+    top: 400px;
+    height: 300px;
+    display: flex;
+    width: 1845px;
+    padding: 40px 160px 0px 160px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #008CFF;
+    p
+}
+
+.info-1{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    bottom: 50px;
+    right: 350px;
+}
+
+.info-2{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    bottom: 50px;
+    right: 250px;
+}
+
+.info-3{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    bottom: 50px;
+    right: 150px;
+}
+
+.info-4{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    bottom: 50px;
+    right: 5px;
+}
+
+#filter-select{
+    display: flex;
+    width: 850px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    background: #FFF;
+    font-size: 25px;
+
+    position: relative;
+    /* top: 20px; */
+    left: 380px;
+  }
+
+  #validationTextarea {
+    width: 808px;
+    height: 508px;
+    flex-shrink: 0;
+
+    position: relative;
+    top: 20px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.29);
+  }
+
+  /* Footer section  */
+
+  /* Footer  */
+
+.icons {
+    position: relative;
+    top: 290px;
+    text-align: center;
+    gap: 20px;
+    width: 1823px;
+    height: 87px;
+    flex-shrink: 0;
+    background-color: #0576D3;
+}
+
+.icons-fa {
+    position: relative;
+    top: 10px;
+    font-size: 100px;
+    width: 27px;
+    height: 24px;
+    background-color: #FFF;
+    border-radius: 5px;
+    border-inline: none;
+
+    margin-right: 20px; /*Used to space out the icons*/
+}
+.softvalue {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    position: relative;
+    bottom: 10px;
+}
+
+.sv-logo {
+    position: relative;
+    left: 790px;
+    top: 20px;
+
+    width: 45px;
+    border-radius: 0px 9.559px;
+    border: 0.737px solid #FFF;
+    background: #008CFF;
+    color: #FFF;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  */

@@ -1,0 +1,764 @@
+
+/* Navbar */
+
+.navbar{
+    height: 100px;
+}
+
+.nav-link{
+    float: right;
+    width: 100px;
+    margin-right: 30px;
+
+    color: rgba(0, 0, 0, 0.70);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-logo{
+    width: 34px;
+    border-radius: 0px 9.559px;
+    border: 0.737px solid #FFF;
+    background: #008CFF;
+    color: #FFF;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+    position: relative;
+    left: 360px;
+    top: 15px;
+}
+
+.nav-softvalue {
+    position: relative;
+    bottom: 15px;
+    left: 400px;
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.nav-link:hover{
+    color: #008CFF;
+}
+
+/* **************** */
+
+.intro {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0.96px;
+    position: absolute;
+      top: 27%;
+      left: 50%;
+      transform: translate(-60%, 20%);
+      font-weight: bold;
+}
+
+
+    html, body {
+        /* overflow-y specifies what to do with the top/bottom edges of the content. */
+        /* overflow-x specifies what to do with the left/right edges of the content. */
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    
+
+.first-layer {
+    width: 110%; /* Desired width */
+    /* object-fit: cover; Crop the image to fit the container while maintaining aspect ratio */
+    background-size: cover;
+    background-position: center;
+}
+
+.uppertext{
+    position: absolute;
+    top: 60%;
+    right: 24%;
+    color: white;
+    padding: 0px 350px;
+}
+
+.middletext {
+    position: absolute;
+    top: 176%;
+    left: 47.5%;
+    background-color: #FFC700;
+    padding: 0px -10px;
+    margin: 0px 190px;
+    color: black;
+    text-align: justify;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 180% */
+    background-color: white;
+}
+
+.Deliver{
+    position: absolute;
+    top: 158%;
+    right: 7%;
+    color: rgba(0, 0, 0, 0.90);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px; /* 135.417% */
+    padding: 0px 0px;
+    background-color: white;
+}
+
+.third-text {
+    position: absolute;
+    top: 264%;
+    left: 47%;
+    padding: 0px -10px;
+    margin: 0px 190px;
+    color: black;
+    text-align: justify;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 180% */
+}
+
+.team-text {
+    position: absolute;
+    top: 500%;
+    left: 40%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    width: 20%;
+    justify-content: center;
+}
+
+/* Footer  */
+
+.icons {
+    position: absolute;
+    top: 650%;
+    text-align: center;
+    gap: 20px;
+    width: 1823px;
+    height: 87px;
+    flex-shrink: 0;
+    background-color: #0576D3;
+}
+
+.icons-fa {
+    position: relative;
+    top: 10px;
+    font-size: 100px;
+    width: 27px;
+    height: 24px;
+    background-color: #FFF;
+    border-radius: 5px;
+    border-inline: none;
+
+    margin-right: 20px; /*Used to space out the icons*/
+}
+.softvalue {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    position: relative;
+    bottom: 10px;
+}
+
+.sv-logo {
+    position: relative;
+    left: 790px;
+    top: 20px;
+
+    width: 45px;
+    border-radius: 0px 9.559px;
+    border: 0.737px solid #FFF;
+    background: #008CFF;
+    color: #FFF;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  */
+
+
+/* All the buttons here*/
+
+/* For the Read more button in landing page */
+#readMoreBtn {
+    font-size: 20px;
+    position: absolute;
+    top: 81%;
+    left: 23%;
+    /* padding: 10px 50px; */
+    background-color: black;
+    border-radius: 4px;
+    border: 1px solid #FFC700;  
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#About-read-Btn {
+    position: absolute;
+    left: 60%;
+    top: 188%;
+    color: #008CFF;
+    background-color: white;
+    border: none;
+}
+
+#About-read-Btn:hover {
+    background-color: #008CFF;
+    color: white;
+}
+
+#hiddenText {
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    color: white;
+    padding: 0px 100px;
+}
+
+#aboutRead{
+    position: absolute;
+    right: 10%;
+    font-size: 10px;
+    padding: 0px 200px;
+}
+
+/* #benefit-read-Btn{
+    position: absolute;
+    left: 60%;
+    top: 283%;
+    background-color: rgba(217, 217, 217, 0.20);
+    border: none;
+    color: #008CFF;
+}
+
+#benefit-read-Btn:hover {
+    background-color: #008CFF;
+    color: white;
+}
+
+#benefitRead {
+    position: absolute;
+    top: 288%;
+    left: 46%;
+    padding: 0px 200px;
+    color: black;
+    width: 75%;
+    font-weight: 500;
+} */
+
+#success-read-Btn{
+    position: absolute;
+    top: 385%;
+    left: 24%;
+}
+
+#success-read-Btn:hover{
+    background-color: white;
+    color: #008CFF;
+    border: none;
+}
+
+/* #successRead{
+    position: absolute;
+    top: 445%;
+    left: 12%;
+    font-size: 20px;
+    padding: 0px 200px;
+    color: black;
+} */
+
+#market-read-Btn{
+    position: absolute;
+    top: 470%;
+    left: 24%;
+}
+
+#market-read-Btn:hover{
+    background-color: white;
+    color: #008CFF;
+    border: none;
+}
+
+#marketRead{
+    position: absolute;
+    top: 560%;
+    left: 10%;
+    font-size: 20px;
+    padding: 0px 200px;
+    color: black;
+}
+
+
+/* Backgrounds */
+.third-background{
+    background-color: rgba(217, 217, 217, 0.20);
+        width: 110%; 
+      height: 80%;
+      box-sizing: border-box;
+      margin-top: 30px;
+      padding: 60px;    
+      position: absolute;
+      top: 224%;
+}
+
+.fourth-background{
+    width: 110%; 
+    height: 80%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 60px;    
+    position: absolute;
+    top: 309%;
+}
+
+
+.team-background{
+    /* background-color: rgba(217, 217, 217, 0.20); */
+    background-color: rgba(217, 217, 217, 0.20);
+    width: 110%; 
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 60px;    
+    position: absolute;
+    top: 505%;
+}
+
+.details-background{
+    width: 110%; 
+    height: 49%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 60px;    
+    position: absolute;
+    top: 605%;
+    background-color: #008CFF;
+}
+
+.footer-background{
+    background-color:  #0576D3;
+    width: 110%; 
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 60px;    
+    position: absolute;
+    top: 731%;
+}
+/* Fourth Section Codes */
+
+.fourth-text1 {
+    position: absolute;
+    top: 320%;
+    left: 23%;
+    color: #008CFF;
+    font-size: 30px;
+    width: 21%;
+    font-weight: 500;
+}
+
+.fourth-text2 {
+    position: absolute;
+    top: 330%;
+    left: 23%;
+    color: black;
+    font-size: 30px;
+    width: 18%;
+    font-weight: 500;
+}
+
+.fourth-text3{
+    position: absolute;
+    top: 349%;
+    left: 23%;
+    color: black;
+    font-size: 20px;
+    width: 30%;
+    font-weight: 400;
+}
+
+.fourth-text4{
+    position: absolute;
+    top: 372%;
+    left: 24%;
+    color: black;
+    font-size: 20px;
+    width: 30%;
+    font-weight: 400;
+}
+
+.fourth-text5 {
+    position: absolute;
+    top: 410%;
+    left: 23%;
+    color: #008CFF;
+    font-size: 22px;
+    width: 21%;
+    font-weight: 500;
+}
+
+.fourth-text6{
+    position: absolute;
+    top: 420%;
+    left: 23%;
+    color: black;
+    font-size: 30px;
+    width: 20%;
+    font-weight: 500;
+}
+
+.fourth-text7 {
+    position: absolute;
+    top: 430%;
+    left: 23%;
+    color: black;
+    font-size: 20px;
+    width: 30%;
+    font-weight: 400;
+}
+
+.member1-text{
+    color: black;
+    position: absolute;
+   /* Top and left control the postion and left adjustment of the image */
+   top: 575%;
+   left: 29%;
+   font-size: 20px;
+   font-weight: 700;
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.member1-text2 {
+    color: black;
+    position: absolute;
+   /* Top and left control the postion and left adjustment of the image */
+   top: 583%;
+   left: 24.5%;
+   font-size: 15px;
+   font-weight: 700;
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.member2-text{
+    color: black;
+    position: absolute;
+   /* Top and left control the postion and left adjustment of the image */
+   top: 575%;
+   left: 50%;
+   font-size: 20px;
+   font-weight: 700;
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.member2-text2{
+    color: black;
+    position: absolute;
+   /* Top and left control the postion and left adjustment of the image */
+   top: 583%;
+   left: 50%;
+   font-size: 15px;
+   font-weight: 700;
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.member3-text{
+    color: black;
+    position: absolute;
+   /* Top and left control the postion and left adjustment of the image */
+   top: 575%;
+   left: 72%;
+   font-size: 20px;
+   font-weight: 700;
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.member3-text2{
+    color: black;
+    position: absolute;
+   /* Top and left control the postion and left adjustment of the image */
+   top: 583%;
+   left: 71%;
+   font-size: 15px;
+   font-weight: 700;
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.member1-img{
+    width: 17%;
+    height: 70%; 
+   position: absolute;
+   /* Top and left control the postion and left adjustment of the image */
+   top: 520%;
+   left: 23%;
+   margin: 10px;
+   flex-shrink: 0;
+   padding-bottom: 150px;
+   background-color: white;
+}
+
+.member2-img{
+    width: 17%;
+    height: 70%; 
+   position: absolute;
+   /* Top and left control the postion and left adjustment of the image */
+   top: 520%;
+   left: 45%;
+   margin: 10px;
+   flex-shrink: 0;
+   padding-bottom: 150px;
+   background-color: white;
+}
+
+.member3-img{
+    width: 19%;
+    height: 70%; 
+   position: absolute;
+   /* Top and left control the postion and left adjustment of the image */
+   top: 520%;
+   left: 65%;
+   margin: 10px;
+   flex-shrink: 0;
+   padding-bottom: 150px;
+   background-color: white;
+}
+
+
+.img-4{
+    width: 34.9%;
+    height: 70%; 
+   position: absolute;
+
+   /* Top and left control the postion and left adjustment of the image */
+   top: 320%;
+   left: 53%;
+   margin: 10px;
+   flex-shrink: 0;
+}
+
+.img-5{
+    width: 34.9%;
+    height: 70%; 
+   position: absolute;
+
+   /* Top and left control the postion and left adjustment of the image */
+   top: 410%;
+   left: 53%;
+   margin: 10px;
+   flex-shrink: 0;
+}
+
+/* */
+
+.left-side {
+    background-color: white;
+    padding: 0px 10px;
+    margin-left: 250px;
+}
+
+.right-side{
+    background-color: blue;
+    padding: 0px 300px;
+    margin-left: 50px;
+
+}
+/*blue background */
+.stat { 
+    position: absolute;
+    left: 49%;
+    top: 195%;
+    background-color: #008CFF;
+    width: 500px;
+    height: 200px;
+}
+
+.laptop {
+    width: 100%; /* Desired width */
+    height: 100%;
+}
+
+.img-3 {
+     width: 34.9%;
+     height: 75%; 
+    position: absolute;
+
+    /* Top and left control the postion and left adjustment of the image */
+    top: 230%;
+    left: 20%;
+    margin: 10px;
+    flex-shrink: 0;
+}
+
+.About-Us {
+    color: #008CFF;
+    position: absolute;
+    top: 154%;
+    right: 23%;
+    padding: 0px 0px;
+    margin: 0px 5px;
+    height: 30px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-color: white;
+}
+
+.choose-us {
+    color: #008CFF;
+    position: absolute;
+    top: 240%;
+    right: 23%;
+    padding: 0px 0px;
+    margin: 0px 5px;
+    height: 30px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.benefits{
+    color: black;
+    font-size: 30px;
+    width: 19%;
+    position: absolute;
+    top: 245%;
+    right: 22%;
+    font-weight: 550;
+}
+
+.local-text {
+    color: black;
+    position: absolute;
+    top: 283%;
+    left: 59.5%;
+    width: 30%;
+    font-weight: 700;
+}
+
+.local-percent {
+    background-color: #008CFF;
+    color: white;
+    position: absolute;
+    top: 287%;
+    left: 60%;
+    width: 20%;
+    float: right; /* Move the text to the right side */
+    text-align: right; 
+    font-weight: 700;
+}
+
+.project-text{
+    color: black;
+    position: absolute;
+    top: 294%;
+    left: 59.5%;
+    width: 16%;
+    float: left;
+    text-align: left;
+    font-weight: 700;
+}
+
+.project-percent{
+    background-color: #008CFF;
+    color: white;
+    position: absolute;
+    top: 300%;
+    left: 60%;
+    width: 20%;
+    float: right; /* Move the text to the right side */
+    text-align: right; 
+    font-weight: 700;
+}
+
+.people-num {
+    position: absolute;
+    top: 200%;
+    left: 51%;
+    color: white;
+}
+
+.people-num2 {
+    position: absolute;
+    top: 200%;
+    left: 67%;
+    color: white;
+}
+
+.details-help{
+    position: absolute;
+    top: 617%;
+    left: 15%;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.details-legal {
+    position: absolute;
+    top: 617%;
+    left: 35%;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.details-contact{
+    position: absolute;
+    top: 617%;
+    left: 50%;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.details-advert{
+    position: absolute;
+    top: 617%;
+    left: 65%;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}

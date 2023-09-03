@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="css/contact.css">
+<!--Bootstrap JS Link-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <!-- Navbar Setup  -->
+  <nav class="navbar navbar-expand-md bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/landing-page.html">
+        <div class="nav-logo">
+          SV
+          </div>
+        <div class="nav-softvalue">
+          softvalue
+        </div>
+      </a>
+    </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link w3-button w3-block" href="/landing-page.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link w3-button w3-block" href="/about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link w3-button w3-block" href="/contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link w3-button w3-block" href="/blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link w3-button w3-block" href="/services.html">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link w3-button w3-block" href="/career.html">Career</a>
+      </li>
+    </ul>
+  </nav>
+<!-- ------ -->
+
+  <!-- First Section  -->
+    <section class="first-section">
+        <div class="flex-container">
+            <div class="row">
+                <div class="phone-img">
+                    <img src="/images/contact/phone-img.jpg" alt="landline Image">
+                </div>
+                <div class="contact-text1">
+                    Contact US
+                </div>
+                    <p class="contact-text2">
+       Send us a message right here or contact us through 
+       any of the channels listed below
+                </p>
+                </div>
+            </div>
+
+                
+    </section>
+
+    <section class="second-section">
+
+        <div class="container">
+            <div class="row">
+                <div class="message">
+                    Leave A Message
+                </div>
+                <div class="message-text">
+        Feel free to leave a message below and 
+        we will reply you as promptly as possible
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+        <section class="third-section">
+
+                <!-- FULL NAME  -->
+            <div class="container mt-3 full-name">
+                <h2>Full Name</h2>
+                <!-- <p>Use the .form-control-plaintext class to style an input field without borders, but with correct marigins and padding:</p> -->
+                <form>
+                  <input type="text" class="form-control name" placeholder="Enter Here" required>
+                </form>
+              </div>
+
+              <!-- PHONE NUMBER  -->
+              <div class="container mt-3 phone-number">
+                <h2>Phone Number</h2>
+                <!-- <p>Use the .form-control-plaintext class to style an input field without borders, but with correct marigins and padding:</p> -->
+                <form>
+                  <input type="number" class="form-control mt-3 number" placeholder="Enter Here" required>
+                </form>
+              </div>
+
+            <!-- EMAIL ADDRESS  -->
+            <div class="container mt-3 email">
+                <h2>Email Address</h2>
+                <!-- <p>Use the .form-control-plaintext class to style an input field without borders, but with correct marigins and padding:</p> -->
+                <form>
+                  <input type="email" class="form-control mail-input" placeholder="Enter Here" required>
+                </form>
+              </div>
+
+              <!-- Organization  -->
+            <div class="container mt-3 organ">
+                <h2>Organization</h2>
+                <!-- <p>Use the .form-control-plaintext class to style an input field without borders, but with correct marigins and padding:</p> -->
+                <form>
+                  <input type="email" class="form-control organ-input" placeholder="Enter Here" required>
+                </form>
+              </div>
+
+              <label for="filter-select" class="filter-title">Category
+                <br><br>
+          <select name="filter" id="filter-select">
+            <option value="">Select message category</option>
+            <option value="">Application development</option>
+            <option value="">Web Developemnt</option>
+            <option value="">Mobile App Development</option>
+            <option value="">DevOps</option>
+            <option value="">Machine Learning</option>
+            <option value="">CyberSecurity</option>
+            <option value="">Network Security</option>
+            <option value="">Cryptography</option>
+            <option value="">Data Analysis</option>
+            <option value="">Artifical Intelligence</option>
+            <option value="">DevNet</option>
+          </select>
+            </label>
+
+            <div class="message-textarea">
+                <label for="validationTextarea" class="message-label">Message</label>
+                <textarea class="form-control" id="validationTextarea" required></textarea>
+                <div class="invalid-feedback">
+                  Please enter a message in the textarea.
+                </div>
+              </div>
+
+              <div class="message-btn">
+                <button class="btn message-btn-text" type="submit">Send Message</button>
+              </div>
+
+              <div class="container-fluid info">
+                <div class="info-1">
+                  HELP
+                <br><br>
+                <p>
+                  Site map
+                </p>
+                <p>
+                  About Us
+                </p>
+                <p>
+                  Add Us to Home Screen
+                </p>
+              </div>
+        
+              <div class="info-2">
+                LEGAL
+              <br><br>
+              <p>
+                Terms Of Service
+              </p>
+              <p>
+                Privacy policy
+              </p>
+              <p>
+                Trademarks
+              </p>
+            </div>
+        
+            <div class="info-3">
+              CONTACT US
+            <br><br>
+            <p>
+              Feedback/Tips
+            </p>
+            <p>
+              Licensing
+            </p>
+            <p>
+              Trademarks
+            </p>
+          </div>
+        
+          <div class="info-4">
+            ADVERTISEMENTS
+          <br><br>
+          <p>
+            About Adverts
+          </p>
+          <p>
+            Advertise with Us
+          </p>
+          <p>
+            Trademarks
+          </p>
+        </div>
+              </div>
+
+        </section>
+
+        <footer class="icons">
+          <img class="icons-fa" src="/images/favicon/Facebook.png" alt="Facebook">
+          <img class="icons-fa" src="/images/favicon/instagram.png" alt="Instagram">
+          <img class="icons-fa" src="/images/favicon/Twitter.png" alt="Twitter">
+          <img class="icons-fa" src="/images/favicon/Portfolium.png" alt="Portfolium">
+          <img class="icons-fa" src="/images/favicon/WhatsApp.png" alt="Whatsapp">
+          <img class="icons-fa" src="/images/favicon/YouTube.png" alt="Youtube">
+    
+          <div class="sv-logo">
+            SV
+            </div>
+          <div class="softvalue">
+            softvalue
+          </div>
+      </footer>
+
+</body>
+</html>
